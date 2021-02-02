@@ -34,8 +34,8 @@ mpiexec -n 48 -machinefile ./nodes.$SLURM_JOB_ID pismr -i $CENTER1/maps/PISM_1km
   -grid.correct_cell_areas false -grid.registration corner \
   -ys -0 -ye 10 \
   -surface given -surface_given_file $CENTER1/maps/PISM_1km_v3.nc \
-  -atmosphere given,lapse_rate -atmosphere_given_file $CENTER1/maps/PISM_1km_v3.nc \
-  -atmostphere_lapse_rate_file $CENTER1/maps/PISM_1km_v3.nc -temp_lapse_rate 8 \
+  -atmosphere given,temperature_lapse_rate -atmosphere_given_file $CENTER1/maps/PISM_1km_v3.nc \
+  -atmostphere_lapse_rate_file $CENTER1/maps/PISM_1km_v3.nc -temperature_lapse_rate 8 \
   -ocean constant -ocean.sub_shelf_heat_flux_into_ice 1 \
   -sia_e 2.0 -ssa_e 0.65 -stress_balance ssa+sia \
   -topg_to_phi 15.0,40.0,-700,-100 -pseudo_plastic -pseudo_plastic_q 0.25 \
