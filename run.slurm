@@ -40,8 +40,8 @@ mpiexec -n $NN -machinefile ./nodes.$SLURM_JOB_ID pismr -i $Inspin \
   $calvstr \
   -eigen_calving_K $ecalvK -thickness_calving_threshold $tcalvt \
   -pik $misc\
-  -ts_file $Outlocex_$Outfm -ts_times -$Yst:yearly:$Yet \
-  -extra_file $Outlocex_$Outfm -extra_times -$Yst:50:$Yet \
+  -ts_file $Outexts_$Outfm -ts_times -$Yst:yearly:$Yet \
+  -extra_file $Outexex_$Outfm -extra_times -$Yst:50:$Yet \
   -extra_vars diffusivity,temppabase,tempicethk_basal,bmelt,tillwat,velsurf_mag,mask,thk,topg,usurf,hardav,velbase_mag,tauc,tendency_of_ice_amount_due_to_discharge,dHdt \
   -o $Outloc$Outfm
 
