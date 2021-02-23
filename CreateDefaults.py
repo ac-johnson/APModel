@@ -26,7 +26,7 @@ d['Yst']=0
 d['Yet']=200
 d['sshfi']=0.5
 d['Outloc']='$CAI/runs/output/'
-d['Outlocex']='$CAI/runs/extra/'
+d['Outex']='$CAI/runs/extra/'
 d['misc']=''
 d['Atmofile']='$CAI/data_sets/climate/Atmosphere_Forcing/noresm1-m_rcp2.6/Regridded_8km/NorESM1-M_8km_clim_rcp26_1995-2014.nc'
 
