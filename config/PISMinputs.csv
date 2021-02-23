@@ -1,5 +1,5 @@
 runname,sfile,NN,PART,mx,my,Inspin,Inboot,SIAe,SSAe,PPQ,ecalvK,sshfi,calvstr,TGPhi,Yst,Yet,misc,Atmofile
-run1,run_regrid_forcethk.slurm,48,t2small,761,761,$CAI/data_sets/inital_States/snapshots_112000.000.nc,$CAI/data_sets/bedmachine/bedmachine_initmip8km.nc,,,,,,,,,,,
+run1,run_regrid_forcethk.slurm,48,t2small,761,761,$CAI/data_sets/inital_states/snapshots_112000.000.nc,$CAI/data_sets/bedmachine/bedmachine_initmip8km.nc,,,,,,,,,,,
 run2,run.slurm,96,t1standard,,,,$CENTER1/maps/PISM_1km_v3.nc,,,,,,,,,,,
 run3,run_regrid.slurm,96,t1standard,,,,$CENTER1/maps/PISM_1km_v3.nc,,,,,,,,0,200,,
 run4,run.slurm,48,t2small,761,761,$CAI/runs/output/Ant_8km_spinup3.nc,$CAI/data_sets/inital_States/snapshots_112000.000.nc,1,,,,,,,0,200,,

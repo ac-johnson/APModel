@@ -31,7 +31,7 @@ mpiexec -n $NN -machinefile ./nodes.$SLURM_JOB_ID pismr -i $Inspin \
   -grid.correct_cell_areas false -grid.registration corner \
   -ys -$Yst -ye $Yet \
   -surface given -surface_given_file $Inboot \
-  -atmosphere given,lapse_rate -atmosphere_given_file $Atmofile \
+  -atmosphere given -atmosphere_given_file $Atmofile \
   -ocean constant -ocean.sub_shelf_heat_flux_into_ice $sshfi \
   -sia_e $SIAe -ssa_e $SSAe -stress_balance ssa+sia \
   -topg_to_phi $TGPhi -pseudo_plastic -pseudo_plastic_q $PPQ \
