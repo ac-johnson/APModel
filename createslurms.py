@@ -27,9 +27,9 @@ runcmddir = 'runcmds/'
 #    
 #    runname,sfile,NN,PART,mx,my,Inspin,Inboot
 
-setrunlist = range(4,21)
+setrunlist = range(4,22)
 #setrunlist = [1]
-#dorunlist = range(4,21)
+#dorunlist = range(4,22)
 dorunlist = []
 
 #runnums = np.array(setrunlist)
@@ -54,7 +54,7 @@ def adddefaults(run,defaultfile):
         if not run[key]:
             run[key]=defaults[key]
             
-os.system('cd %s'%rundir)
+os.chdir('cd %s'%rundir)
             
 for run in readCSVd:
     #run = row
