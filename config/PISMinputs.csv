@@ -19,7 +19,7 @@ run17,run.slurm,48,t2small,761,761,$CAI/runs/output/Ant_8km_spinup3.nc,$CAI/data
 run18,run.slurm,48,t2small,761,761,$CAI/runs/output/Ant_8km_spinup3.nc,$CAI/data_sets/inital_states/snapshots_112000.000.nc,,,,,0.1,,,0,200,,
 run19,run.slurm,48,t2small,761,761,$CAI/runs/output/Ant_8km_spinup3.nc,$CAI/data_sets/inital_states/snapshots_112000.000.nc,,,,,1,,,0,200,,
 run20,run.slurm,48,t2small,761,761,$CAI/runs/output/Ant_8km_spinup3.nc,$CAI/data_sets/inital_states/snapshots_112000.000.nc,,,,,,,,0,200,-tauc_slippery_grounding_lines,
-run21,run.slurm,49,t2small,762,762,$CAI/runs/output/Ant_8km_spinup3.nc,$CAI/data_sets/inital_states/snapshots_112000.000.nc,,,,,,,,,,,
+run21,run.slurm,48,t2small,761,761,$CAI/runs/output/Ant_8km_spinup3.nc,$CAI/data_sets/inital_states/snapshots_112000.000.nc,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
