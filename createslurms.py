@@ -22,7 +22,7 @@ rundir = '/import/c1/ICESHEET/ICESHEET/uaf-antarctica/runs/'
 runcmddir = 'runcmds/'
 
 
-
+#TESTCOMMENT
 #Values that must be in defaults list:
 #    
 #    runname,sfile,NN,PART,mx,my,Inspin,Inboot
