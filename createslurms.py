@@ -55,6 +55,7 @@ def adddefaults(run,defaultfile):
             run[key]=defaults[key]
             
 os.chdir('cd %s'%rundir)
+print(os.system('pwd'))
             
 for run in readCSVd:
     #run = row

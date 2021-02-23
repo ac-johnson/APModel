@@ -28,6 +28,7 @@ d['sshfi']=0.5
 d['Outloc']='$CAI/runs/output/'
 d['Outlocex']='$CAI/runs/extra/'
 d['misc']=''
+d['Atmofile']='$CAI/data_sets/climate/Atmosphere_Forcing/noresm1-m_rcp2.6/Regridded_8km/NorESM1-M_8km_clim_rcp26_1995-2014.nc'
 
 #d['-shelf_base_melt_rate']
 #Or look at ocean.sub_shelf_heat_flux_into_ice  (default is 0.5 W m-2)
