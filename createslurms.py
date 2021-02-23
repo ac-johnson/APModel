@@ -54,7 +54,7 @@ def adddefaults(run,defaultfile):
         if not run[key]:
             run[key]=defaults[key]
             
-os.chdir('cd %s'%rundir)
+os.chdir(rundir)
 print(os.system('pwd'))
             
 for run in readCSVd:
