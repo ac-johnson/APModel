@@ -18,7 +18,7 @@ import os
 defaultfile = 'config/defaults_Ant.npy'
 inputfile = 'config/PISMinputs.csv'
 outns = 'Ant_'              #out name start
-rundir = 'import/c1/ICESHEET/ICESHEET/uaf-antarctica/runs/'
+rundir = '/import/c1/ICESHEET/ICESHEET/uaf-antarctica/runs/'
 runcmddir = 'runcmds/'
 
 
