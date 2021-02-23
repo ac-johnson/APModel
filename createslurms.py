@@ -32,7 +32,7 @@ setrunlist = range(4,21)
 #dorunlist = range(4,21)
 dorunlist = []
 
-runnums = np.array(setrunlist)
+#runnums = np.array(setrunlist)
 
 setrunlist = ['run'+str(i) for i in setrunlist]
 dorunlist = ['run'+str(i) for i in dorunlist]
