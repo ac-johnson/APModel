@@ -36,7 +36,7 @@ d['Atmofile']='$CAI/data_sets/climate/Atmosphere_Forcing/noresm1-m_rcp2.6/Regrid
 #Or look at ocean.sub_shelf_heat_flux_into_ice  (default is 0.5 W m-2)
 
 #print d
-np.save('defaults_Ant.npy',d)
+np.save('config/defaults_Ant.npy',d)
 
 
 
