@@ -33,7 +33,6 @@ mpiexec -n $NN -machinefile ./nodes.$SLURM_JOB_ID pismr -i $Inspin \
   -surface given -surface_given_file $Inboot \
   -atmosphere given -atmosphere_given_file $Atmofile \
   -ocean $otype $ostr \ 
-  -ocean constant -ocean.sub_shelf_heat_flux_into_ice $sshfi \
   -sia_e $SIAe -ssa_e $SSAe -stress_balance ssa+sia \
   -topg_to_phi $TGPhi -pseudo_plastic -pseudo_plastic_q $PPQ \
   -pseudo_plastic_uthreshold $PPUt \
