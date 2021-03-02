@@ -30,7 +30,7 @@ runcmddir = 'runcmds/'
 #setrunlist = range(4,22)
 setrunlist = [21]
 #dorunlist = range(4,22)
-#dorunlist = [21]
+dorunlist = []
 
 #runnums = np.array(setrunlist)
 
