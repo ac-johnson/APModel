@@ -28,9 +28,9 @@ runcmddir = 'runcmds/'
 #    runname,sfile,NN,PART,mx,my,Inspin,Inboot
 
 #setrunlist = range(4,22)
-setrunlist = [22]
+setrunlist = [21]
 #dorunlist = range(4,22)
-dorunlist = [22]
+#dorunlist = [21]
 
 #runnums = np.array(setrunlist)
 
